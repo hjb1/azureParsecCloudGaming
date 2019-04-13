@@ -44,7 +44,7 @@
             "metadata": {
                 "description": "Location of the setup script."
             },
-            "defaultValue": "https://raw.githubusercontent.com/ecalder6/azure-gaming/master"
+            "defaultValue": "https://raw.githubusercontent.com/hjb1/azureParsecCloudGaming/master"
         },
         "windowsUpdate": {
             "type": "bool",
