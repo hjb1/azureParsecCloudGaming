@@ -25,17 +25,12 @@ if ($windows_update) {
 Update-Firewall
 Disable-Defender
 Disable-ScheduledTasks
-Disable-IPv6To4
 if ($manual_install) {
     Disable-InternetExplorerESC
     Edit-VisualEffectsRegistry
 }
 Add-DisconnectShortcut
 
-Install-Chocolatey
-Install-VPN
-Join-Network $network
-Install-NSSM
 
 Install-NvidiaDriver $manual_install
 Set-ScheduleWorkflow $admin_username $admin_password $manual_install
